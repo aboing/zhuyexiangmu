@@ -1,0 +1,470 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 413681 */
+  src: url('http://at.alicdn.com/t/font_413681_75ps00x7jqrm5cdi.eot');
+  src: url('http://at.alicdn.com/t/font_413681_75ps00x7jqrm5cdi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_413681_75ps00x7jqrm5cdi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_413681_75ps00x7jqrm5cdi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_413681_75ps00x7jqrm5cdi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 第一章开始 */
+.head{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+}
+.zhezhao{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+.box{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%;   
+}
+.box h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ibox{
+    width: 100%;
+    padding: 0 44%;
+}
+.box i{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    float: left;
+}
+.anniu{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(175, 175, 175, 0.2);
+    position: absolute;
+    bottom: -50px;
+    left: 45%;
+}
+
+
+/* 第一张结束 */
+/* 第二章开始 */
+.second{
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+
+.second h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.wenzi p{
+    font-size: 18px;
+    color: #888;
+    line-height: 27px;
+    margin-bottom: 20px;
+    /* word-spacing:5px; *//* 是来设置字与字之间的距离 */
+}
+.second h2{
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+.hengT{
+    margin-bottom: 30px;
+}
+.second h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+.second span{
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    position: relative;
+
+}
+.hengT1 span{
+    width: 80%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* 第二张结束 */
+/* 第三张开始 */
+.thi{
+    background-color: #f6f6f6;
+    padding: 90px 0;
+}
+.thi i{
+   font-size: 50px;
+   margin-left: 50%;
+}
+.thi h5{
+    font-size: 14px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+.thi p{
+    font-size: 16px;
+    text-align: center;
+    color: #888;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 31px;
+}
+/* 第三张结束 */
+/* 第四张开始 */
+.fou{
+    padding: 90px 0;
+}
+.wenzi{
+    margin-bottom: 60px;
+}
+.fou h2{
+    font-size: 24px;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.fou p{
+    text-align: center;
+}
+.bottomT{
+
+    margin: 50px 40%;
+}
+.bottomT h6{
+    font-size: 14px;
+    font-weight: 300;
+    float: left;
+    margin-right: 35px;
+}
+
+.picLb{
+    /* background-color: red; */
+    float: left;
+}
+.picLb img{
+     margin-bottom: 25px;
+}
+
+/* 第四张结束 */
+/* 第五张开始 */
+.fiv{
+    background-color: #f6f6f6;
+     
+}
+.neif{
+    padding:90px 15px;
+}
+.fiv h2,.fiv p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fbottom{
+    font-size: 55px;
+}
+
+.fbottom a{
+	display: block;
+	font-size: 24px;
+	color: #ff4700;
+	text-align: center;
+}
+/* 第五张结束 */
+/* 第六张开始 */
+.six{
+     padding: 90px 0;
+}
+.wenzi h2,.wenzi p{
+    text-align: center;
+    margin-top: 10px;
+}
+.sbottom h2{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.sbottom p{
+    text-align: left;
+    font-size: 18px;
+    color: #888;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.sbottom h5{
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+}
+.box1{
+    background-color: #fff;
+}
+/* 第六张结束 */
+
+/* 第七张开始 */
+.seven{
+    background-color: #f4f4f4;
+    padding: 90px 0;
+}
+.seven h2,.seven p{
+    text-align: center;
+    margin-top: 10px;
+}
+.Lbox3{
+    background-color: #fff;
+}
+
+input {
+    width: 100%;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+textarea{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+}
+
+/* 第七张结束 */
+/* 底部栏开始 */
+.bottom{
+    padding: 70px 0;
+    background-color: #111;
+
+}
+.top{
+    width: 100%;
+    padding: 0 31%;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 173px;
+    float: left;
+}
+.top i{
+    font-size: 23px;
+    color: #fff;
+    margin-right: 10px;
+    float: left;
+}
+.zbottom{
+    padding: 0 445px;
+}
+.zbottom p{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+
+}
+
+/* 底部栏结束 */
+
+
+/* pc端大屏 */
+
+
+@media screen and (min-width: 1200px){
+  .zhezhao{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+  }
+  .head{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100% 700px;
+    width: 100%;
+    height: 700px;
+  }
+  .box{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%;   
+    padding: 0 24px;
+  }
+  
+
+}
+
+/* pc端小屏 */
+
+@media screen and (min-width: 992px) and (max-width:
+    1200px){
+  .zhezhao{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+  }
+ .head{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100% 700px;
+    width: 100%;
+    /* height: 500px; */
+  }
+
+  .box{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%; 
+    padding: 0 24px;  
+  }
+
+  .box h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  }
+
+  .thi i{
+    font-size: 50px;
+    margin-left: 50%;
+  }
+
+  .thi h5{
+    font-size: 14px;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+  .thi p{
+    font-size: 16px;
+    text-align: center;
+    color: #888;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 31px;
+  }
+  
+  .thi-box{
+    margin-bottom: 83px;
+  }
+}
+
+/* 平板端 */
+
+@media screen and (min-width: 768px) and (max-width:
+    992px){
+  .zhezhao{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+  }
+
+   .head{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100% 700px;
+    width: 100%;
+    /* height: 700px; */
+  }
+  .box h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  }
+  .box{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%; 
+    padding: 0 24px;  
+  }
+
+  .ibox{
+    width: 100%;
+    padding: 0 41%;
+  }
+  .box i{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    float: left;
+  }
+}
+
+/* app端的屏幕 */
+@media screen and (max-width: 768px){
+  .zhezhao{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    }
+
+   .head{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100% 700px;
+    width: 100%;
+    /* height: 700px; */
+    }
+   .box h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    }
+   .box{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%; 
+    padding: 0 24px;  
+    }
+
+    .ibox{
+     width: 100%;
+     padding: 0 33%;
+    }
+    .box i{
+     font-size: 20px;
+     color: #fff;
+     margin-right: 10px;
+     float: left;
+    }
+    .thi-box{
+     width: 100%;
+
+    }
+
+    .thi-box{
+     margin-bottom: 83px;
+     }
+     .fbottom{
+     margin-left:20px;
+     }
+     .top{
+     padding: 0 31%;
+     margin-left: 24%;
+     } 
+     .zbottom p{
+     margin-left: 150px;
+     }
+     
+}
